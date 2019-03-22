@@ -1,7 +1,7 @@
 module.exports = function(app){
     //view
     app.get('/todo',function(req,res){
-        
+        res.render('todo');
     });
     //create
     app.post('/todo',function(req,res){
